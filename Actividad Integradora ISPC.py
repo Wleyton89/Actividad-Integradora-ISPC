@@ -23,6 +23,26 @@ if opcion == 2:
         suma += number
         promedio = suma / len(list)
     print(f"El promedio de los numeros ingresados es: {promedio}")
+if opcion == 3:
+    print("Usted eligio la Opcion 3 - Sacar el Maximo de un numero")
+    list = []
+    result = 0
+    for i in range(5):
+        num = int(input("Ingrese un numero: "))
+        list.append(num)
+    for number in list:
+        result = max(list)
+    print(f"El valor maximo de los numeros ingresados es: {result}")
+if opcion == 4:
+    print("Usted eligio la Opcion 4 - Sacar el minimo de un numero")
+    list = []
+    result = 0
+    for i in range(5):
+        num = int(input("Ingrese un numero: "))
+        list.append(num)
+    for number in list:
+        result = min(list)
+    print(f"El valor minimo de los numeros ingresados es: {result}") 
 
 print("Gracias por utilizar el programa!")
 print("Participantes:\n-Alejandro Antonio Leyton Segovia(Aula 5)\n-William Bernardo Leyton Segovia(Aula 4) ")
