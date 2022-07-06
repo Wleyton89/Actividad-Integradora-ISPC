@@ -1,5 +1,6 @@
 # Actividad-Integradora-ISPC
 Actividad Integradora Programación Inicial
+
 Temas:
 ● Git/Github
 ● Funciones
