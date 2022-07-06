@@ -45,7 +45,7 @@ if opcion == 4:
     print(f"El valor minimo de los numeros ingresados es: {result}")
 
 print("Gracias por utilizar el programa!")
-print("Participantes:\n-Alejandro Antonio Leyton Segovia\n-William Bernardo Leyton Segovia ")
+print("Participantes:\n-Alejandro Antonio Leyton Segovia(Aula 5)\n-William Bernardo Leyton Segovia(Aula 4) ")
 
 
 
